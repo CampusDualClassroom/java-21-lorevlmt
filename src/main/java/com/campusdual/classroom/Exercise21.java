@@ -49,6 +49,18 @@ public class Exercise21 {
 
     public static boolean addElementToSet(Set<String> set, String elementToAdd) {
         return set.add(elementToAdd);
+
+       //ALTERNATIVA
+        /*
+         if (set.add(elementToAdd)) {
+             System.out.println("Se ha agregado el elemento.");
+             return true;
+
+         } else {
+             System.out.println("No se ha podido agregar el elemento");
+             return false;
+         }
+         */
     }
 
     public static void main(String[] args) {
