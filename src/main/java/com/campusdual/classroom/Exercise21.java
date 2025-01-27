@@ -53,12 +53,12 @@ public class Exercise21 {
 
     public static void main(String[] args) {
         Set<String> hashSet = createHashSet();
-        boolean addedToHashSet = addElementToSet(hashSet, "ELEMENT AAA");
+        addElementToSet(hashSet, "ELEMENT AAA");
         System.out.println("HashSet:");
         printSet(hashSet);
 
         Set<String> treeSet = createTreeSet();
-        boolean addedToTreeSet = addElementToSet(treeSet, "ELEMENT AAA");
+        addElementToSet(treeSet, "ELEMENT AAA");
         System.out.println("\nTreeSet:");
         printSet(treeSet);
     }
